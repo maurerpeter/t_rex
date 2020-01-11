@@ -1,0 +1,43 @@
+name: t_rex
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^0.17.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/background/layer_01_1920x1080_day.png
+    - assets/images/background/layer_01_1920x1080_night.png
+    - assets/images/background/layer_02_1920x1080_day.png
+    - assets/images/background/layer_02_1920x1080_night.png
+    - assets/images/background/layer_03_1920x1080_day.png
+    - assets/images/background/layer_03_1920x1080_night.png
+    - assets/images/player/trex_0_day.png
+    - assets/images/player/trex_0_night.png
+    - assets/images/player/trex_1_day.png
+    - assets/images/player/trex_1_night.png
+    - assets/images/player/trex_decorator_red_eye_0.png
+    - assets/images/player/trex_decorator_green_0.png
+    - assets/images/player/trex_decorator_green_1.png
+    - assets/images/player/trex_decorator_red_0.png
+    - assets/images/player/trex_decorator_red_1.png
+    - assets/images/obstacles/small_cactus_0_day.png
+    - assets/images/obstacles/small_cactus_0_night.png
+    - assets/images/obstacles/big_cactus_0_day.png
+    - assets/images/obstacles/big_cactus_0_night.png
+    - assets/images/obstacles/bird_0_day.png
+    - assets/images/obstacles/bird_1_day.png
+    - assets/images/obstacles/bird_0_night.png
+    - assets/images/obstacles/bird_1_night.png
